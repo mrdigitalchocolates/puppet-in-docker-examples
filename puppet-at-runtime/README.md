@@ -4,7 +4,7 @@ It can sometimes be useful to have access to Puppet in the context of a
 running container. But you might not want to have all of the Puppet
 software installed into all of your containers. Luckily Docker provides
 a solution to this problem with
-[Volumes](https://docs.docker.com/engine/userguide/containers/dockervolumes/).
+[Volumes](https://docs.docker.com/storage/volumes/#populate-a-volume-using-a-container).
 
 Volumes allow for directories from one container to be mounted into
 another at runtime. In the context of Puppet that means we can make the
